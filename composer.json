@@ -1,5 +1,5 @@
 {
-    "name": "huangyaxiong/amqpAdapter",
+    "name": "huangyaxiong/amqp_adapter",
     "description": "doweidu amqpAdapter",
     "type": "library",
     "license": "MIT",
