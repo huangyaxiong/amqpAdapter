@@ -1,0 +1,16 @@
+{
+    "name": "doweidu/amqpAdapter",
+    "description": "doweidu amqpAdapter",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "config":{
+        "secure-http":false
+    },
+    "autoload": {
+        "files": [
+            "amqpAdapter.php"
+        ]
+    },
+    "require": {}
+}
