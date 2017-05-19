@@ -18,10 +18,10 @@ require: {
 First, `use` the Macaw namespace:
 
 ```PHP
-use \Hkuan\Hrouter\Router;
+use \Hkuan\Mq\Amqadapter;
 ```
 
-Macaw is not an object, so you can just make direct operations to the class. Here's the Hello World:
+
 
 ```PHP
 
