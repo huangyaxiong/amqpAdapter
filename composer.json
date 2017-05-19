@@ -1,16 +1,11 @@
 {
-    "name": "huangyaxiong/amqp_adapter",
-    "description": "doweidu amqpAdapter",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "config":{
-        "secure-http":false
-    },
-    "autoload": {
-        "files": [
-            "amqpAdapter.php"
-        ]
-    },
-    "require": {}
+	"name": "hkuan/mq",
+	"description": "From AMQP adapter to php-amqplib",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"autoload": {
+		"psr-4": {"Hkuan\\Mq\\": ""}
+	}
 }
