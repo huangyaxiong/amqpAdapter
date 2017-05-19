@@ -1,7 +1,7 @@
 amqpAdapter
 =====
 
-HRouter is a simple, open source PHP router. It's super small (~150 LOC), fast, and has some great annotated source code. This class allows you to just throw it into your project and start using it immediately.
+From AMQP adapter to php-amqplib,This package is used for projects "haoshiqi"
 
 ### Install
 
@@ -9,7 +9,7 @@ If you have Composer, just include Macaw as a project dependency in your `compos
 
 ```
 require: {
-    "hkuan/amqp-adapter": "dev-master"
+    "hkuan/amqp_adapterr": "dev-master"
 }
 ```
 
