@@ -18,11 +18,20 @@ require: {
 First, `use` the Macaw namespace:
 
 ```PHP
+producer:
+
 use \Hkuan\Mq\Amqadapter;
+DWDMq::getInstance()->send('test','2222');
+
 ```
-
-
-
 ```PHP
+consumer:
+use \Hkuan\Mq\Amqadapter;
+DWDMq::getInstance()->get('test', 'deal');
 
+$i = 1;
+function deal($envelope, $queue) {
+    $msg = $envelope->getBody();
+    echo $msg.PHP_EOL;   
+}
 ```
